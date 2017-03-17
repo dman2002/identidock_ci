@@ -1,5 +1,5 @@
 from flask import Flask, Response, request 
-import requests, hashlib, redis
+import requests, hashlib, redis, html
 
 app = Flask(__name__) 
 
